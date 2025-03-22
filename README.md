@@ -46,3 +46,36 @@ This is a community project from [flowt.ai](https://flowt.ai). If you like it, c
  <source media="(prefers-color-scheme: light)" srcset="logo.svg" height="50">
  <img alt="flowt.ai logo" src="flowt.png" height="50">
 </picture>
+
+
+
+💡 Programming Challenges for Flowty Realtime LCM Canvas
+1️⃣ Custom Shape Rendering
+📌 Challenge: Add support for drawing a custom shape (e.g., a pentagon or a star) on the canvas.
+💡 Hint:
+
+Add a button that, when clicked, draws the custom shape.
+
+Use Path2D API in HTML5 Canvas for precise shape control.
+
+Implement mouse events and Bezier curves to define shape points dynamically.
+
+2️⃣ Real-time Collaboration Enhancement
+📌 Challenge: Implement a history tracking system for real-time collaboration.
+💡 Hint:
+
+Store each action (like drawing a line or erasing a shape) in a history list.
+
+Allow users to undo/redo changes.
+
+Use WebSockets or IndexedDB to handle state management efficiently.
+
+3️⃣ Dynamic Layer Management
+📌 Challenge: Add a layer system to control the order of elements on the canvas.
+💡 Hint:
+
+Create a panel displaying a list of layers.
+
+Enable drag & drop functionality to reorder layers.
+
+Simulate z-index behavior for better layer control.
